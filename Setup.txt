@@ -1,0 +1,70 @@
+Hello Cyberpower678! We on iswiki would be very happy to receive IABot. 
+I'm not quite sure how to localize the parser. Down below are some 
+translations, but if it's any problem it's not necessary to localize these messages.
+
+Here are at least some month names fixed: https://github.com/thjarkur/iswiki-IABot/blob/master/iswiki.php
+
+
+== To translate ==
+
+en: {link} is found to be dead. No archive was found.
+is: {link} finnst ekki í skjalasafni
+
+en: Added archive {newarchive} to {link}
+is: Bæti skjalsafni við {link}
+
+en: Replaced archive link {oldarchive} with {newarchive} on {link}
+is: Skipti um skjalasafn fyrir {link}
+
+en: Corrected formatting/usage for {link}
+is: Lagfæri snið fyrir {link}
+
+en: Added {{tlx|dead link}} tag to {link}
+is: Merki {link} sem dauðan hlekk
+
+en: Removed dead tag from {link}
+is: {link} ekki lengur merktur sem dauður hlekkur
+
+en: Modified source for {link}
+is: Breyti hlekknum {link}
+
+en: {problem} with error {error}
+is: {problem} með villuna {error}
+
+en: Rescuing {linksrescued} sources and tagging {linkstagged} as dead.
+is: Bjarga {linksrescued} hlekkjum og merki {linkstagged} hlekki sem dauða.
+
+
+== Questions ==
+
+=== Do you want talk page messages? ===
+– No
+
+=== Do you use dead link templates and archive templates? ===
+– We don't currently use {{dead link}}, but the bot may use it: https://is.wikipedia.org/wiki/Template:Dead_link 
+- We also don't use {{webarchive}}, it's quite all right if the bot just 
+  replaces all dead links instead of appending {{webarchive}}
+
+=== Where are your cite templates? ===
+
+1. CS1 templates copied from enwiki using English parameters
+
+2. Our version of "Cite web": https://is.wikipedia.org/wiki/Template:Vefheimild 
+   It uses the English CS1 templates underneath using the following mappings from English parameters to Icelandic parameters:
+  - url = url
+  - archive-url = archive-url (or) archiveurl (or) safnslóð
+  - archive-date = archive-date (or) archivedate (or) safndags (or) <"safnmánuður" + " " + "safnár">
+  - accessdate = skoðað (or) skoðað-dags (or) skoðað-þann (or) <"mánuðurskoðað" + " " + "árskoðað">
+- The <Vefheimild> still supports splitting its date parameters into "date" and "year", 
+  but IABot may just discard that date parameter.
+
+3. Our version of "Cite book": https://is.wikipedia.org/wiki/Template:Bókaheimild 
+   Relevant parameters (English name to Icelandic name):
+   - url
+   - ISBN
+   - page/pages = bls
+
+=== What is the typical formatting you use for time on Wikipedia and what other formats do you use, even the least popular ones? ===
+* Icelandic dates (29. maí 2019)
+* European dates: 29-05-2019
+* Various dates in English from references that have been copied from enwiki
