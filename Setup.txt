@@ -2,7 +2,7 @@ Hello Cyberpower678! We on iswiki would be very happy to receive IABot.
 I'm not quite sure how to localize the parser. Down below are some 
 translations, but if it's any problem it's not necessary to localize these messages.
 
-Here are at least some month names fixed: https://github.com/thjarkur/iswiki-IABot/blob/master/iswiki.php
+Here are at least some month names fixed: https://github.com/thjarkur/IABot-iswiki/blob/master/iswiki.php
 
 
 == To translate ==
