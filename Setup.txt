@@ -60,9 +60,10 @@ is: Bjarga {linksrescued} hlekkjum og merki {linkstagged} hlekki sem dauða.
 
 3. Our version of "Cite book": https://is.wikipedia.org/wiki/Template:Bókaheimild 
    Relevant parameters (English name to Icelandic name):
-   - url
-   - ISBN
-   - page/pages = bls
+    - url
+    - ISBN
+    - page/pages = bls
+   Getting links to the Archive.org library for books like you are currently testing on enwiki would of course be most welcome.
 
 === What is the typical formatting you use for time on Wikipedia and what other formats do you use, even the least popular ones? ===
 * Icelandic dates (29. maí 2019)
